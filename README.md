@@ -20,47 +20,47 @@ Before you begin, ensure you have the following installed:
 - Python (>=3.8)
 - Django
 - Git
-1. **Clone the Repository**
+1. **Clone the Repository**:
 Clone the repository to your local machine using the following command:
 
-~~bash
+~~~bash
 git clone https://github.com/imtiazzzz/volunteering-platform.git
 cd volunteering-platform
 
-2. **Set Up Virtual Environment**
+2. **Set Up Virtual Environment**:
 It's recommended to use a virtual environment to avoid conflicts with other Python projects. To create a virtual environment, run the following:
 
-~~bash
+~~~bash
 python -m venv venv
 
 Activate the virtual environment:
 
 On Windows:
 
-~~bash
+~~~bash
 .\venv\Scripts\activate
 
 On macOS/Linux:
 
-~~bash
+~~~bash
 source venv/bin/activate
 
 3. **Install Dependencies**
 Install the required Python packages using:
 
-~~bash
+~~~bash
 pip install -r requirements.txt
 
 4. **Database Migrations**
 Before running the project, apply the migrations to set up your database:
 
-~~bash
+~~~bash
 python manage.py migrate
 
 5. **Running the Development Server**
 To run the application locally, execute:
 
-~~bash
+~~~bash
 python manage.py runserver
 The application will be available at http://127.0.0.1:8000/ by default.
 
