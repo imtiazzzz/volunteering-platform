@@ -11,8 +11,8 @@ The **Volunteering Platform** is a web application designed to connect volunteer
 
 ## Technologies Used  
 - **Backend**: Django (Python Web Framework)  
-- **Frontend**: HTML, CSS, JavaScript (Optional: React if used)  
-- **Database**: SQLite (Default) or PostgreSQL  
+- **Frontend**: HTML, CSS, JavaScript 
+- **Database**: PostgreSQL  
 - **Authentication**: Django Authentication System  
 - **Version Control**: Git  
 
